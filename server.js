@@ -54,7 +54,7 @@ app.get('/historico', (req, res) => {
             coeficiente, coeficiente
         });
     } else {
-        res.status(404).json({message: 'Aluno não encontrado.'})
+        res.status(404).json({message: 'Aluno não encontrado'})
     }
 });
 
